@@ -24,28 +24,7 @@
       <div class="logo_image text-center">
         <a><img class="ceis_logo pt-5" src="resources/images/logo-ceis.png"/></a>
       </div>
-      <div class="wrapper fadeInDown">
-  <div id="formContent">
-    <!-- Tabs Titles -->
-
-    <!-- Icon -->
-    <div class="fadeIn first">
-      <!-- <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" /> -->
-    </div>
-
-    <!-- Login Form -->
-    <form action="" method="POST" class="mt-5">
-      <input type="text" id="login" class="fadeIn second" name="user_name" placeholder="Username">
-      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
-      <input type="submit" name="login" class="login fadeIn fourth" value="SIGN IN">
-    </form>
-
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Creat an account</a>
-    </div>
-
-  </div>
+     
 </div>
      </div>     
 
