@@ -16,18 +16,16 @@
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
 <link rel="stylesheet" href="https://kit.fontawesome.com/471326bbab.css" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-<link rel="stylesheet" href="resources/css/log_in.css"  /> 
+<link rel="stylesheet" href="resources/css/mainpage.css"  /> 
 <script src="js/app.js"></script>  
 </head>
-    <body class="intro">
-     <div class="container">
-      <div class="logo_image text-center">
-        <a><img class="ceis_logo pt-5" src="resources/images/logo-ceis.png"/></a>
+<body class="intro">
+     <div class="logo-header">
+      <div class="logo_image text-start">
+        <a><img class="ceis_logo" src="resources/images/logo-ceis.png"/></a>
+        
       </div>
-     
-</div>
-     </div>     
-
+</div>  
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/471326bbab.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>

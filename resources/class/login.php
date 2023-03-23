@@ -25,7 +25,7 @@ class login extends config{
           if ($password == $passWord && $user_name == $user_Name) {
             session_start();
             $_SESSION['user_name'] = $user_name;
-            header('location: viewpage.php');
+            header('location: mainpage.php');
           }
           return true;
         }

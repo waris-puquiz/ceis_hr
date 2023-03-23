@@ -42,7 +42,7 @@
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
-      <a class="underlineHover" href="#">Creat an account</a>
+      <!-- <a class="underlineHover" href="#">Creat an account</a> -->
     </div>
 
   </div>
