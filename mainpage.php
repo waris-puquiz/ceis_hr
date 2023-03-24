@@ -20,12 +20,24 @@
 <script src="js/app.js"></script>  
 </head>
 <body class="intro">
-     <div class="logo-header">
+<nav class="navbar navbar-expand-lg navbar-light ">
+<div class="logo-header">
       <div class="logo_image text-start">
-        <a><img class="ceis_logo" src="resources/images/logo-ceis.png"/></a>
-        
+        <a><img class="ceis_logo " src="resources/images/logo-ceis.png"/></a>
       </div>
 </div>  
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+</nav>
+<main>
+
+  
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/471326bbab.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
