@@ -20,22 +20,18 @@
     box-sizing: border-box;
 }
 body{
+
    background-color: white;
+   background: var(--gray-12);
+   place-items: center;
 }
 .intro{
     height: 100vh;
     background:linear-gradient(to bottom left,#5bd059, #f77bb9); 
 }
-.ceis_logo{
-  height: 30%;
-  width: 30%;
-}
-/* .logo-header{
+/* nav-bar */
+main {
   width: 100%;
-} */
-/* button-header */
-main{
-  width: 66ch;
 }
 ul {
   padding: 0;
@@ -62,8 +58,8 @@ nav > button {
   z-index: var(--count);
 }
 
-a {
-  background: hsl(0 0% 60% / 0.18);
+.icn {
+  background: hsl(330, 89%, 73%);
   display: inline-block;
   padding: var(--size-2) var(--size-4);
   border-radius: var(--radius-5);
@@ -72,10 +68,11 @@ a {
   font-size: var(--font-size-1);
   font-weight: var(--font-weight-0);
   backdrop-filter: blur(40px);
-  transition: color 0.2s, background 0.2s;  
+  transition: color 0.2s, background 0.2s;
+ 
 }
 
-a:visited {
+.icn:visited {
   color: var(--gray-0);
 }
 
