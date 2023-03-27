@@ -2,17 +2,17 @@
 function checkUser(){
     if(!empty($_SESSION['user_name'])){
     }else {
-      header('location: login.php');
+      header('location: index.php');
     }
   
   }
-  function logout(){
-    if(isset($_POST['logout'])){
+  function log_out(){
+    if(isset($_POST['log_out'])){
   session_start();
   session_destroy();
   session_unset();
   unset($_SESSION['user_name']);
-    header('location: login.php');
+    header('location: index.php');
   }
 }
 function login(){

@@ -110,6 +110,9 @@ li:is(
 a:focus-visible {
   outline-color: transparent;
 }
+.btn-lo:focus-visible{
+  outline-color: transparent;
+}
 
 ul:is(:focus-within, :hover) {
   --active: 1;
