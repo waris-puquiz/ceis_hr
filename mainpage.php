@@ -1,6 +1,6 @@
 <?php
  require_once 'resources/php/init.php';
- login();
+ logout();
 
 ?>
 <!DOCTYPE html>
@@ -45,7 +45,7 @@
           </a>
         </li>
         <li style="--index: 3;">
-          <a  class="icn"href="https://front-end.social/jhey" target="_blank" rel="noreferrer noopener">
+          <a type="submit" name="logout" value="logout" class="icn"href="https://front-end.social/jhey" target="_blank" rel="noreferrer noopener">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
               Logout
