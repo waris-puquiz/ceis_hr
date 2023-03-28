@@ -16,7 +16,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://kit.fontawesome.com/471326bbab.css" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="resources/css/log_in.css"  /> 
+<link rel="stylesheet" href="resources/css/log_inn.css"  /> 
 <script src="js/app.js"></script>  
 </head>
     <body class="intro">
@@ -39,31 +39,39 @@
       <input type="password" id="inputPassword3" class="fadeIn third" name="password" placeholder="Password">
       <input type="submit" name="login" class="login fadeIn fourth" value="SIGN IN">
     </form>
-
-    <!-- Remind Passowrd -->
+    <!-- modal -->
+    <!-- <div class="overlay hidden"></div>
+    <section class="modal hidden">
+      <div class="flex">
+        <button class="btn-close">⨉</button>
+      </div>
+      <div>
+        <h3>Stay in touch</h3>
+        <p>
+          This is a dummy newsletter form so don't bother trying to test it. Not
+          that I expect you to, anyways.
+        </p>
+      </div>
+    
+      <input type="email" id="email" placeholder="brendaneich@js.com" />
+      <button class="btn">Do Something</button>
+    </section> -->
+   
+    <!-- sign up -->
     <div id="formFooter">
-      <a type="button" class="btn underlineHover" data-toggle="modal" data-target="#exampleModal">Sign up</a>
+      <button id="myBtn"  class="btn underlineHover" >Sign up</button>
     </div>
-<!-- sign up modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
   </div>
+
 </div>
+
+
 
 
   </div>
@@ -71,7 +79,7 @@
      </div>    
      
      
-
+     <script src="resources/js/create-modal.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/471326bbab.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>

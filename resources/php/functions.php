@@ -1,4 +1,6 @@
 <?php
+session_start();
+error_reporting(0);
 function checkUser(){
     if(!empty($_SESSION['user_name'])){
     }else {
@@ -22,11 +24,9 @@ function login(){
     $login = new login($user_name,$password);
     if($login->loginUser()){
     }else {
-      echo  '<div class="alert alert-danger alert-dismissible fade show col-md-12" role="alert">
-            Login Failed!
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>';
+      echo  "<script>alert('Invalid Details');</script>"; 
     }
   }
 }
+
 ?>
