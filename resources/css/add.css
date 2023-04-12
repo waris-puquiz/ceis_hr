@@ -23,7 +23,7 @@
 
 body{
   display: flex;
-  height: 256vh;
+  height: 270vh;
   background:linear-gradient(to bottom left,#5bd059, #f77bb9);
   justify-content: center;
   align-items: center;
