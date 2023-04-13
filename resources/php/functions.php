@@ -28,6 +28,29 @@ function login(){
     }
   }
 }
+function signup(){
+  if(isset($_POST['submit'])){
+    $user_name = $_POST['user_name'];
+    $password = $_POST['password'];
+    $signup = new signup ($user_name,$password);
+    if($signup->sign_up()){
+      echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+      Successfully Created account!
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>';
+    }else{
+      echo  '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+      Failed to Creat an account!
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>';
+    }
+  }
+}
+
 function add_emp(){
   if(isset($_POST['submit'])){
     $emp_id = $_POST['emp_id'];

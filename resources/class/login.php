@@ -1,6 +1,6 @@
 <?php
 class login extends config{
-  public $user_name;
+  public $user_name;  
   public $password;
 
   public function __construct($user_name=NULL,$password=NULL){

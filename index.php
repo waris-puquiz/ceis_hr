@@ -24,6 +24,8 @@
       <div class="logo_image text-center">
         <a><img class="ceis_logo pt-5" src="resources/images/logo-ceis.png"/></a>
       </div>
+      <div class="row">
+        <div class="col">
       <div class="wrapper fadeInDown">
   <div id="formContent">
     <!-- Tabs Titles -->
@@ -39,43 +41,53 @@
       <input type="password" id="inputPassword3" class="fadeIn third" name="password" placeholder="Password">
       <input type="submit" name="login" class="login fadeIn fourth" value="SIGN IN">
     </form>
-    <!-- modal -->
-    <!-- <div class="overlay hidden"></div>
-    <section class="modal hidden">
-      <div class="flex">
-        <button class="btn-close">⨉</button>
-      </div>
-      <div>
-        <h3>Stay in touch</h3>
-        <p>
-          This is a dummy newsletter form so don't bother trying to test it. Not
-          that I expect you to, anyways.
-        </p>
-      </div>
-    
-      <input type="email" id="email" placeholder="brendaneich@js.com" />
-      <button class="btn">Do Something</button>
-    </section> -->
+   
+  
    
     <!-- sign up -->
     <div id="formFooter">
-      <button id="myBtn"  class="btn underlineHover" >Sign up</button>
+      <button  class="btn underlineHover" >LOG IN TO YOUR ACCOUNT</button>
     </div>
-    <div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
   </div>
+</div>
 
+<!-- close tag ng col no.1 -->
+</div>
+<!-- SIGN UP -->
+<div class="col">
+      <div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <!-- <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" /> -->
+    </div>
+
+    <!-- Login Form -->
+    <form action="" method="POST" class="mt-5">
+      <input type="text" id="inputEmail3" id="" class="fadeIn second" name="user_name" placeholder="Username">
+      <input type="password" id="inputPassword3" class="fadeIn third" name="password" placeholder="Password">
+      <input type="submit" name="signup sign_up" class="login fadeIn fourth" value="SIGN UP">
+      <?php signup()?>
+    </form>
+   
+  
+   
+    <!-- sign up -->
+    <div id="formFooter">
+      <button  class="btn underlineHover" >CREATE AN ACCOUNT</button>
+    </div>
+  </div>
+</div>
+
+<!-- close tag ng col no.2 -->
 </div>
 
 
-
-
-  </div>
+<!-- close tag ng row -->
 </div>
+<!-- close tag ng container -->
      </div>    
      
      
