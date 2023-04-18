@@ -1,6 +1,6 @@
 <?php
  require_once 'resources/php/init.php';
- login();
+//  login();
 
 ?>
 <!DOCTYPE html>
@@ -39,14 +39,14 @@
     <form action="" method="POST" class="mt-5">
       <input type="text" id="inputEmail3" id="" class="fadeIn second" name="user_name" placeholder="Username">
       <input type="password" id="inputPassword3" class="fadeIn third" name="password" placeholder="Password">
-      <input type="submit" name="login" class="login fadeIn fourth" value="SIGN IN">
+      <input type="submit" name="login" class="login fadeIn fourth" value="SIGN up">
     </form>
    
   
    
     <!-- sign up -->
     <div id="formFooter">
-      <a href="create_acc.php" class="btn underlineHover" >CREATE AN ACCOUNT</a>
+      <a href="index.php" class="btn underlineHover" >BACK IN LOG IN PAGE</a>
     </div>
   </div>
 </div>
