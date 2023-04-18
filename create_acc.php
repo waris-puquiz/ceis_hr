@@ -44,7 +44,7 @@ if(!empty($_GET)){
     <form action="" method="GET" class="mt-5">
       <input type="text" id="inputEmail3" id="user_name" class="fadeIn second" name="user_name" placeholder="Username">
       <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
-      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
+      <input type="password" id="password" class="fadeIn third" name="cpassword" placeholder="Password">
       <input type="submit" name="update" class="login fadeIn fourth" value="SIGN UP">
     </form>
    
