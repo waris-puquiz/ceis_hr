@@ -1,6 +1,7 @@
 <?php
  require_once 'resources/php/init.php';
 //  add_emp()
+//  add_emp()
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -76,7 +77,6 @@
                                 <option>Divorced</option>
                                 <option>Separated</option>
                                 <option> Widow/Widower</option>
-                                <option>In a relationship </option>
                             </select>
                         </div>
                     </div>
@@ -258,8 +258,9 @@
                                 <option>Mother</option>
                                 <option>Father</option>
                                 <option>Sister</option>
-                                <option> Brother</option>
-                                <option>Boyfriend/Girlfriend</option>
+                                <option>Brother</option>
+                                <option>Guardian</option>
+                                <option>Partner</option>
                             </select>
                         </div>
                     </div>
