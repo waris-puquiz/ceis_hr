@@ -1,6 +1,6 @@
 <?php
  require_once 'resources/php/init.php';
- add_emp()
+//  add_emp()
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -278,7 +278,7 @@
                     <div class="row justify-content-center">
                         <div class="form-group col-md-12 subbtn">
                             <input class="btn tosub" type="submit" name="submit" value="Add Employee"/>
-                            <?php  add_emp(); ?>
+                           
                         </div>
                     </div>                        
                 </form>

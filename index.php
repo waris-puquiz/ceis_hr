@@ -46,7 +46,7 @@
    
     <!-- sign up -->
     <div id="formFooter">
-      <a href="create_acc.php" class="btn underlineHover" >CREATE AN ACCOUNT</a>
+      <a href="create_acc.php" class="btn underlineHover" >Don't have an account yet? Sign up here</a>
     </div>
   </div>
 </div>

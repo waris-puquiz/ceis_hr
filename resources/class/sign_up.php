@@ -13,7 +13,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/ceis_hr/resources/class/config.php';
         $pdo = $config->con();
         $user_name = $this->user_name;
         $password = $this->password;
-        $sql = "INSERT INTO `accounts`(`user_name`,`passworsd`) VALUES (?,?)";
+        $sql = "INSERT INTO `accounts`(`user_name`,`passworsd`) VALUES ('$user_name','$password')";
         $data = $pdo->prepare($sql);
         $data->execute(["$user_name","$password"]);
     }

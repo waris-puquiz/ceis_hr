@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/ceis_hr/resources/class/sign_up.php';
 if(!empty($_GET)){
     $insert_account = new insert_account ($_GET['user_name'],$_GET['password']);
     $insert_account->insert_account();
-    // header('location:dashboard.php');
+    header('location:index.php');
 }
 
 ?>
@@ -44,7 +44,7 @@ if(!empty($_GET)){
     <form action="" method="GET" class="mt-5">
       <input type="text" id="inputEmail3" id="user_name" class="fadeIn second" name="user_name" placeholder="Username">
       <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
-      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
+      <!-- <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password"> -->
       <input type="submit" name="update" class="login fadeIn fourth" value="SIGN UP">
     </form>
    
@@ -52,7 +52,7 @@ if(!empty($_GET)){
    
     <!-- sign up -->
     <div id="formFooter">
-      <a href="index.php" class="btn underlineHover" >BACK IN LOG IN PAGE</a>
+      <a href="index.php" class="btn underlineHover" >Have an account already?Sign in here</a>
     </div>
   </div>
 </div>
