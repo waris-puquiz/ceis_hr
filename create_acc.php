@@ -1,11 +1,7 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/ceis_hr/resources/class/sign_up.php';
+ require_once 'resources/php/init.php';
 //  login();
-if(!empty($_GET)){
-    $insert_account = new insert_account ($_GET['user_name'],$_GET['password']);
-    $insert_account->insert_account();
-    header('location:index.php');
-}
+insrt_account()
 
 ?>
 <!DOCTYPE html>
@@ -41,11 +37,11 @@ if(!empty($_GET)){
     </div>
 
     <!-- Login Form -->
-    <form action="" method="GET" class="mt-5">
+    <form action="" method="POST" class="mt-5">
       <input type="text" id="inputEmail3" id="user_name" class="fadeIn second" name="user_name" placeholder="Username">
       <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
       <!-- <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password"> -->
-      <input type="submit" name="update" class="login fadeIn fourth" value="SIGN UP">
+      <input type="submit" name="signup" class="login fadeIn fourth" value="SIGN UP">
     </form>
    
   
