@@ -37,11 +37,11 @@ insrt_account()
     </div>
 
     <!-- Login Form -->
-    <form action="" method="POST" class="mt-5">
+    <form action="" method="GET" class="mt-5">
       <input type="text" id="inputEmail3" id="user_name" class="fadeIn second" name="user_name" placeholder="Username">
       <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
       <!-- <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password"> -->
-      <input type="submit" name="signup" class="login fadeIn fourth" value="SIGN UP">
+      <input type="submit" name="" class="login fadeIn fourth" value="SIGN UP">
     </form>
    
   

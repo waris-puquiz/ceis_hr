@@ -28,16 +28,19 @@ function login(){
     }
   }
 }
-function insrt_account(){
-  if(isset($_POST['signup'])){
-    $user_name = $_POST['user_name'];
-    $password =  $_POST['password'];
-    $insrt_account = new insrt_account($user_name,$password);
-    if($insrt_account->insert_account()){
-      echo "Successfully created account";
-    }else{
-      echo "Erro create account";
-    }
-  }
+function insrt_account(){ 
+  if(!empty($_GET)){
+    // $user_name = $_POST['user_name'];
+    // $password =  $_POST['password'];
+    $insrt_account = new insert_account($_GET['user_name'],$_GET['password']);
+  //   if($insrt_account->insert_account()){
+  //     echo "Successfully created account";
+  //   }else{
+  //     echo "Erro create account";
+  //   }
+  // }
+  $insrt_account->insert_account();
+  header('location:ceis_hr/index.php');
+}
 }
 ?>
