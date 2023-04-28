@@ -1,16 +1,16 @@
 <?php
 class login extends config{
   public $user_name;  
-  public $password;
+  public $pass_word;
 
-  public function __construct($user_name=NULL,$password=NULL){
+  public function __construct($user_name=NULL,$pass_word=NULL){
     $this->user_name = $user_name;
-    $this->password = $password;
+    $this->pass_word = $pass_word;
   }
   public function loginUser(){
         $con = $this->con();
     $user_name = $this->user_name;
-    $password = $this->password;
+    $pass_word = $this->pass_word;
     $sql = "SELECT * FROM `accounts` WHERE `user_name` = '$this->user_name'";
     $data=$con->prepare($sql);
     $data->execute([$user_name]);
@@ -19,10 +19,10 @@ class login extends config{
       return false;
     }else {
         foreach ($rows as $row) {
-          $passWord =  $row['password'];
+          $pass_Word =  $row['pass_word'];
           $user_Name =  $row['user_name'];
           }
-          if ($password == $passWord && $user_name == $user_Name) {
+          if ($pass_word == $pass_Word && $user_name == $user_Name) {
             session_start();
             $_SESSION['user_name'] = $user_name;
             header('location: dashboard.php');

@@ -38,7 +38,7 @@
     <!-- Login Form -->
     <form action="" method="POST" class="mt-5">
       <input type="text" id="inputEmail3" id="" class="fadeIn second" name="user_name" placeholder="Username">
-      <input type="password" id="inputPassword3" class="fadeIn third" name="password" placeholder="Password">
+      <input type="password" id="inputPassword3" class="fadeIn third" name="pass_word" placeholder="Password">
       <input type="submit" name="login" class="login fadeIn fourth" value="SIGN IN">
     </form>
    
